@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187F76C725F2270500F78D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F76C625F2270500F78D44 /* AppDelegate.swift */; };
+		187F76C925F2270500F78D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F76C825F2270500F78D44 /* SceneDelegate.swift */; };
+		187F76CB25F2270500F78D44 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F76CA25F2270500F78D44 /* calendarViewController.swift */; };
+		187F76CE25F2270500F78D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F76CC25F2270500F78D44 /* Main.storyboard */; };
+		187F76D125F2270500F78D44 /* doodlebluetask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187F76CF25F2270500F78D44 /* doodlebluetask.xcdatamodeld */; };
+		187F76D325F2271000F78D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187F76D225F2271000F78D44 /* Assets.xcassets */; };
+		187F76D625F2271000F78D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187F76D425F2271000F78D44 /* LaunchScreen.storyboard */; };
+		187F76E125F2271100F78D44 /* doodlebluetaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F76E025F2271100F78D44 /* doodlebluetaskTests.swift */; };
+		187F76EC25F2271100F78D44 /* doodlebluetaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F76EB25F2271100F78D44 /* doodlebluetaskUITests.swift */; };
+		187F770825F23E5C00F78D44 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F770725F23E5C00F78D44 /* EventViewController.swift */; };
+		187F770D25F2486F00F78D44 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F770C25F2486F00F78D44 /* InboxViewController.swift */; };
+		187F771225F2488500F78D44 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F771125F2488500F78D44 /* TodayViewController.swift */; };
+		18E4E53E25F348B1008652E9 /* eventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E53D25F348B1008652E9 /* eventTableViewCell.swift */; };
+		44B8189C87831886F98EC1F5 /* Pods_doodlebluetaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0D977A37F30CA6EC9A2071 /* Pods_doodlebluetaskTests.framework */; };
+		5B44EF5E25F3A6510000A2E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B44EF5D25F3A6500000A2E3 /* Constants.swift */; };
+		E3C2817B3F42E76AA7C5A056 /* Pods_doodlebluetask_doodlebluetaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4FA5E170E52B7204DF969D /* Pods_doodlebluetask_doodlebluetaskUITests.framework */; };
+		F0A0C7CEDAF03E90A47DAF98 /* Pods_doodlebluetask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65606B006ACA06AF731B8553 /* Pods_doodlebluetask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187F76DD25F2271100F78D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187F76BB25F2270500F78D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187F76C225F2270500F78D44;
+			remoteInfo = doodlebluetask;
+		};
+		187F76E825F2271100F78D44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187F76BB25F2270500F78D44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187F76C225F2270500F78D44;
+			remoteInfo = doodlebluetask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1815DC07B76490B91770D916 /* Pods-doodlebluetaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetaskTests.debug.xcconfig"; path = "Target Support Files/Pods-doodlebluetaskTests/Pods-doodlebluetaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		187F76C325F2270500F78D44 /* doodlebluetask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doodlebluetask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187F76C625F2270500F78D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187F76C825F2270500F78D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		187F76CA25F2270500F78D44 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		187F76CD25F2270500F78D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187F76D025F2270500F78D44 /* doodlebluetask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = doodlebluetask.xcdatamodel; sourceTree = "<group>"; };
+		187F76D225F2271000F78D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187F76D525F2271000F78D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187F76D725F2271000F78D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187F76DC25F2271100F78D44 /* doodlebluetaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doodlebluetaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187F76E025F2271100F78D44 /* doodlebluetaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doodlebluetaskTests.swift; sourceTree = "<group>"; };
+		187F76E225F2271100F78D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187F76E725F2271100F78D44 /* doodlebluetaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doodlebluetaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187F76EB25F2271100F78D44 /* doodlebluetaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doodlebluetaskUITests.swift; sourceTree = "<group>"; };
+		187F76ED25F2271100F78D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187F770725F23E5C00F78D44 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		187F770C25F2486F00F78D44 /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		187F771125F2488500F78D44 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		18E4E53D25F348B1008652E9 /* eventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventTableViewCell.swift; sourceTree = "<group>"; };
+		2FAAF33573EBD54F8D14E887 /* Pods-doodlebluetask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetask.release.xcconfig"; path = "Target Support Files/Pods-doodlebluetask/Pods-doodlebluetask.release.xcconfig"; sourceTree = "<group>"; };
+		375839FEB71AF79944E61831 /* Pods-doodlebluetaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetaskTests.release.xcconfig"; path = "Target Support Files/Pods-doodlebluetaskTests/Pods-doodlebluetaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B0D977A37F30CA6EC9A2071 /* Pods_doodlebluetaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doodlebluetaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B44EF5D25F3A6500000A2E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B4FA5E170E52B7204DF969D /* Pods_doodlebluetask_doodlebluetaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doodlebluetask_doodlebluetaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65606B006ACA06AF731B8553 /* Pods_doodlebluetask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doodlebluetask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7CBE360834967B319E90F1 /* Pods-doodlebluetask-doodlebluetaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetask-doodlebluetaskUITests.release.xcconfig"; path = "Target Support Files/Pods-doodlebluetask-doodlebluetaskUITests/Pods-doodlebluetask-doodlebluetaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2D35CF5C4C229F46FB2A2BC /* Pods-doodlebluetask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetask.debug.xcconfig"; path = "Target Support Files/Pods-doodlebluetask/Pods-doodlebluetask.debug.xcconfig"; sourceTree = "<group>"; };
+		E48F5F2557A8C3E85871BCAC /* Pods-doodlebluetask-doodlebluetaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doodlebluetask-doodlebluetaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-doodlebluetask-doodlebluetaskUITests/Pods-doodlebluetask-doodlebluetaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187F76C025F2270500F78D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A0C7CEDAF03E90A47DAF98 /* Pods_doodlebluetask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76D925F2271100F78D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B8189C87831886F98EC1F5 /* Pods_doodlebluetaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76E425F2271100F78D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C2817B3F42E76AA7C5A056 /* Pods_doodlebluetask_doodlebluetaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187F76BA25F2270500F78D44 = {
+			isa = PBXGroup;
+			children = (
+				187F76C525F2270500F78D44 /* doodlebluetask */,
+				187F76DF25F2271100F78D44 /* doodlebluetaskTests */,
+				187F76EA25F2271100F78D44 /* doodlebluetaskUITests */,
+				187F76C425F2270500F78D44 /* Products */,
+				67332C858CB28C66178C2345 /* Pods */,
+				9ABCD1A5A63D1412C5E707F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187F76C425F2270500F78D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187F76C325F2270500F78D44 /* doodlebluetask.app */,
+				187F76DC25F2271100F78D44 /* doodlebluetaskTests.xctest */,
+				187F76E725F2271100F78D44 /* doodlebluetaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187F76C525F2270500F78D44 /* doodlebluetask */ = {
+			isa = PBXGroup;
+			children = (
+				187F76C625F2270500F78D44 /* AppDelegate.swift */,
+				187F76C825F2270500F78D44 /* SceneDelegate.swift */,
+				5B44EF6D25F3AFBF0000A2E3 /* Model */,
+				5B44EF6C25F3AF980000A2E3 /* ViewController */,
+				5B44EF6A25F3AF6E0000A2E3 /* StoryBoard */,
+				5B44EF7125F3AFD10000A2E3 /* TableViewCell */,
+				187F76D225F2271000F78D44 /* Assets.xcassets */,
+				187F76D725F2271000F78D44 /* Info.plist */,
+				5B44EF6925F3AF5E0000A2E3 /* DataBase */,
+			);
+			path = doodlebluetask;
+			sourceTree = "<group>";
+		};
+		187F76DF25F2271100F78D44 /* doodlebluetaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				187F76E025F2271100F78D44 /* doodlebluetaskTests.swift */,
+				187F76E225F2271100F78D44 /* Info.plist */,
+			);
+			path = doodlebluetaskTests;
+			sourceTree = "<group>";
+		};
+		187F76EA25F2271100F78D44 /* doodlebluetaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187F76EB25F2271100F78D44 /* doodlebluetaskUITests.swift */,
+				187F76ED25F2271100F78D44 /* Info.plist */,
+			);
+			path = doodlebluetaskUITests;
+			sourceTree = "<group>";
+		};
+		5B44EF6925F3AF5E0000A2E3 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				187F76CF25F2270500F78D44 /* doodlebluetask.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		5B44EF6A25F3AF6E0000A2E3 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				187F76CC25F2270500F78D44 /* Main.storyboard */,
+				187F76D425F2271000F78D44 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		5B44EF6C25F3AF980000A2E3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187F76CA25F2270500F78D44 /* calendarViewController.swift */,
+				187F771125F2488500F78D44 /* TodayViewController.swift */,
+				187F770C25F2486F00F78D44 /* InboxViewController.swift */,
+				187F770725F23E5C00F78D44 /* EventViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5B44EF6D25F3AFBF0000A2E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B44EF5D25F3A6500000A2E3 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B44EF7125F3AFD10000A2E3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18E4E53D25F348B1008652E9 /* eventTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		67332C858CB28C66178C2345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D35CF5C4C229F46FB2A2BC /* Pods-doodlebluetask.debug.xcconfig */,
+				2FAAF33573EBD54F8D14E887 /* Pods-doodlebluetask.release.xcconfig */,
+				E48F5F2557A8C3E85871BCAC /* Pods-doodlebluetask-doodlebluetaskUITests.debug.xcconfig */,
+				CE7CBE360834967B319E90F1 /* Pods-doodlebluetask-doodlebluetaskUITests.release.xcconfig */,
+				1815DC07B76490B91770D916 /* Pods-doodlebluetaskTests.debug.xcconfig */,
+				375839FEB71AF79944E61831 /* Pods-doodlebluetaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9ABCD1A5A63D1412C5E707F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65606B006ACA06AF731B8553 /* Pods_doodlebluetask.framework */,
+				5B4FA5E170E52B7204DF969D /* Pods_doodlebluetask_doodlebluetaskUITests.framework */,
+				4B0D977A37F30CA6EC9A2071 /* Pods_doodlebluetaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187F76C225F2270500F78D44 /* doodlebluetask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187F76F025F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetask" */;
+			buildPhases = (
+				1C016E98D7AC3448BD766D40 /* [CP] Check Pods Manifest.lock */,
+				187F76BF25F2270500F78D44 /* Sources */,
+				187F76C025F2270500F78D44 /* Frameworks */,
+				187F76C125F2270500F78D44 /* Resources */,
+				CA01E5DAD958FD1B96297024 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doodlebluetask;
+			productName = doodlebluetask;
+			productReference = 187F76C325F2270500F78D44 /* doodlebluetask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187F76DB25F2271100F78D44 /* doodlebluetaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187F76F325F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetaskTests" */;
+			buildPhases = (
+				52BC6EFDB1DD60904C7E76FD /* [CP] Check Pods Manifest.lock */,
+				187F76D825F2271100F78D44 /* Sources */,
+				187F76D925F2271100F78D44 /* Frameworks */,
+				187F76DA25F2271100F78D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187F76DE25F2271100F78D44 /* PBXTargetDependency */,
+			);
+			name = doodlebluetaskTests;
+			productName = doodlebluetaskTests;
+			productReference = 187F76DC25F2271100F78D44 /* doodlebluetaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187F76E625F2271100F78D44 /* doodlebluetaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187F76F625F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetaskUITests" */;
+			buildPhases = (
+				8219B9905D8F506BEE0820F7 /* [CP] Check Pods Manifest.lock */,
+				187F76E325F2271100F78D44 /* Sources */,
+				187F76E425F2271100F78D44 /* Frameworks */,
+				187F76E525F2271100F78D44 /* Resources */,
+				E328A23793305CA1830FC42F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187F76E925F2271100F78D44 /* PBXTargetDependency */,
+			);
+			name = doodlebluetaskUITests;
+			productName = doodlebluetaskUITests;
+			productReference = 187F76E725F2271100F78D44 /* doodlebluetaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187F76BB25F2270500F78D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					187F76C225F2270500F78D44 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					187F76DB25F2271100F78D44 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 187F76C225F2270500F78D44;
+					};
+					187F76E625F2271100F78D44 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 187F76C225F2270500F78D44;
+					};
+				};
+			};
+			buildConfigurationList = 187F76BE25F2270500F78D44 /* Build configuration list for PBXProject "doodlebluetask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187F76BA25F2270500F78D44;
+			productRefGroup = 187F76C425F2270500F78D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187F76C225F2270500F78D44 /* doodlebluetask */,
+				187F76DB25F2271100F78D44 /* doodlebluetaskTests */,
+				187F76E625F2271100F78D44 /* doodlebluetaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187F76C125F2270500F78D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F76D625F2271000F78D44 /* LaunchScreen.storyboard in Resources */,
+				187F76D325F2271000F78D44 /* Assets.xcassets in Resources */,
+				187F76CE25F2270500F78D44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76DA25F2271100F78D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76E525F2271100F78D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C016E98D7AC3448BD766D40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doodlebluetask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52BC6EFDB1DD60904C7E76FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doodlebluetaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8219B9905D8F506BEE0820F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doodlebluetask-doodlebluetaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA01E5DAD958FD1B96297024 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask/Pods-doodlebluetask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask/Pods-doodlebluetask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask/Pods-doodlebluetask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E328A23793305CA1830FC42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask-doodlebluetaskUITests/Pods-doodlebluetask-doodlebluetaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask-doodlebluetaskUITests/Pods-doodlebluetask-doodlebluetaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doodlebluetask-doodlebluetaskUITests/Pods-doodlebluetask-doodlebluetaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187F76BF25F2270500F78D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4E53E25F348B1008652E9 /* eventTableViewCell.swift in Sources */,
+				187F770825F23E5C00F78D44 /* EventViewController.swift in Sources */,
+				187F771225F2488500F78D44 /* TodayViewController.swift in Sources */,
+				187F770D25F2486F00F78D44 /* InboxViewController.swift in Sources */,
+				187F76CB25F2270500F78D44 /* calendarViewController.swift in Sources */,
+				187F76D125F2270500F78D44 /* doodlebluetask.xcdatamodeld in Sources */,
+				187F76C725F2270500F78D44 /* AppDelegate.swift in Sources */,
+				187F76C925F2270500F78D44 /* SceneDelegate.swift in Sources */,
+				5B44EF5E25F3A6510000A2E3 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76D825F2271100F78D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F76E125F2271100F78D44 /* doodlebluetaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187F76E325F2271100F78D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F76EC25F2271100F78D44 /* doodlebluetaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187F76DE25F2271100F78D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187F76C225F2270500F78D44 /* doodlebluetask */;
+			targetProxy = 187F76DD25F2271100F78D44 /* PBXContainerItemProxy */;
+		};
+		187F76E925F2271100F78D44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187F76C225F2270500F78D44 /* doodlebluetask */;
+			targetProxy = 187F76E825F2271100F78D44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187F76CC25F2270500F78D44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187F76CD25F2270500F78D44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187F76D425F2271000F78D44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187F76D525F2271000F78D44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187F76EE25F2271100F78D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187F76EF25F2271100F78D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187F76F125F2271100F78D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D35CF5C4C229F46FB2A2BC /* Pods-doodlebluetask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187F76F225F2271100F78D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAAF33573EBD54F8D14E887 /* Pods-doodlebluetask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187F76F425F2271100F78D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1815DC07B76490B91770D916 /* Pods-doodlebluetaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doodlebluetask.app/doodlebluetask";
+			};
+			name = Debug;
+		};
+		187F76F525F2271100F78D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375839FEB71AF79944E61831 /* Pods-doodlebluetaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doodlebluetask.app/doodlebluetask";
+			};
+			name = Release;
+		};
+		187F76F725F2271100F78D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48F5F2557A8C3E85871BCAC /* Pods-doodlebluetask-doodlebluetaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doodlebluetask;
+			};
+			name = Debug;
+		};
+		187F76F825F2271100F78D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7CBE360834967B319E90F1 /* Pods-doodlebluetask-doodlebluetaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYA7XGDBJR;
+				INFOPLIST_FILE = doodlebluetaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sowmiya.doodlebluetaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = doodlebluetask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187F76BE25F2270500F78D44 /* Build configuration list for PBXProject "doodlebluetask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187F76EE25F2271100F78D44 /* Debug */,
+				187F76EF25F2271100F78D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187F76F025F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187F76F125F2271100F78D44 /* Debug */,
+				187F76F225F2271100F78D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187F76F325F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187F76F425F2271100F78D44 /* Debug */,
+				187F76F525F2271100F78D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187F76F625F2271100F78D44 /* Build configuration list for PBXNativeTarget "doodlebluetaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187F76F725F2271100F78D44 /* Debug */,
+				187F76F825F2271100F78D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187F76CF25F2270500F78D44 /* doodlebluetask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187F76D025F2270500F78D44 /* doodlebluetask.xcdatamodel */,
+			);
+			currentVersion = 187F76D025F2270500F78D44 /* doodlebluetask.xcdatamodel */;
+			path = doodlebluetask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 187F76BB25F2270500F78D44 /* Project object */;
+}
